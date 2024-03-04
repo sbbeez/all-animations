@@ -28,13 +28,13 @@ const MaskCursorEffect = () => {
           onMouseLeave={toggleTextHovered(false)}
           className="text-6xl p-10 leading-[66px]"
         >
-          A visual designer - with skills that haven't been replaced by A.I
+          A visual designer - with skills that haven&apos;t been replaced by A.I
           (yet) - making good shit only if the paycheck is equally good.
         </p>
       </motion.div>
       <div className="w-screen h-screen flex items-center justify-center">
         <p className="text-6xl p-10 leading-[66px]">
-          I'm a <span className="text-[#ec4e39]">selectively skilled</span>{" "}
+          I&apos;m a <span className="text-[#ec4e39]">selectively skilled</span>{" "}
           product designer with strong focus on producing high quality &
           impactful digital experience.
         </p>
