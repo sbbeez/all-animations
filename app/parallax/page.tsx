@@ -43,7 +43,7 @@ export default function App() {
   return (
     <>
       {[1, 2, 3, 4, 5].map((image) => (
-        <Image id={image} />
+        <Image key={image} id={image} />
       ))}
       <motion.div
         className="fixed right-0 left-0 bottom-10 h-5 bg-white"
